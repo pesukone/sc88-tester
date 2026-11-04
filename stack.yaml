@@ -44,6 +44,7 @@ packages:
 #
 extra-deps:
   - PortMidi-0.2.0.1@sha256:7ea234c4b9789a822f8228015995e3bc5abfaf02b5c02b49bffa272c07a59e69,2979
+  - gi-adwaita-1.0.8@sha256:5543dadc4cee55a15e074d3c39c66b694d20d5d275f0c29d98c9c4d7e0d9a0dc,11506
 
 # Override default flag values for project packages and extra-deps
 # flags: {}

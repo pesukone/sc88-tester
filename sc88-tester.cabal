@@ -36,6 +36,11 @@ library
   build-depends:
       PortMidi
     , base >=4.7 && <5
+    , gi-adwaita
+    , gi-gio
+    , gi-glib
+    , gi-gtk4
+    , haskell-gi-base
     , time
   default-language: Haskell2010
 
@@ -51,6 +56,11 @@ executable sc88-tester-exe
   build-depends:
       PortMidi
     , base >=4.7 && <5
+    , gi-adwaita
+    , gi-gio
+    , gi-glib
+    , gi-gtk4
+    , haskell-gi-base
     , sc88-tester
     , time
   default-language: Haskell2010
@@ -68,6 +78,11 @@ test-suite sc88-tester-test
   build-depends:
       PortMidi
     , base >=4.7 && <5
+    , gi-adwaita
+    , gi-gio
+    , gi-glib
+    , gi-gtk4
+    , haskell-gi-base
     , sc88-tester
     , time
   default-language: Haskell2010

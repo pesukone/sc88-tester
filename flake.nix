@@ -22,6 +22,19 @@
           stack-wrapped
 
           pkgs.portmidi
+          pkgs.pkg-config
+          pkgs.libadwaita
+          pkgs.libsysprof-capture
+          pkgs.pcre2
+          pkgs.gobject-introspection
+          pkgs.libxdmcp
+          pkgs.util-linux
+          pkgs.libselinux
+          pkgs.libsepol
+          pkgs.fribidi
+          pkgs.libthai
+          pkgs.libdatrie
+          pkgs.appstream
         ];
 
         stack-wrapped = pkgs.symlinkJoin {

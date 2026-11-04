@@ -23,6 +23,11 @@ dependencies:
   - base >= 4.7 && < 5
   - PortMidi
   - time
+  - gi-adwaita
+  - gi-gio
+  - gi-glib
+  - gi-gtk4
+  - haskell-gi-base
 
 ghc-options:
   - -Wall

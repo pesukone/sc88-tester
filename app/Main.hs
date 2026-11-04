@@ -1,13 +1,15 @@
+{-# LANGUAGE ImportQualifiedPost #-}
+
 module Main (main) where
 
 import Control.Monad
--- PPEvent,
-
 import Data.Char
-import Data.Coerce (coerce)
 import Data.Time.Clock (getCurrentTime)
 import Data.Time.Clock.POSIX (POSIXTime, getPOSIXTime)
 import Foreign.C.Types (CLong (..), CULong (..))
+import GI.Adw qualified as Adw
+import GI.Gtk qualified as Gtk
+import GI.Gio qualified as Gio
 import Lib
 import Numeric (showHex)
 import Sound.PortMidi
