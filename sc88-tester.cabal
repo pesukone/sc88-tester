@@ -36,7 +36,7 @@ library
   build-depends:
       PortMidi
     , base >=4.7 && <5
-    , bytestring
+    , time
   default-language: Haskell2010
 
 executable sc88-tester-exe
@@ -51,8 +51,8 @@ executable sc88-tester-exe
   build-depends:
       PortMidi
     , base >=4.7 && <5
-    , bytestring
     , sc88-tester
+    , time
   default-language: Haskell2010
 
 test-suite sc88-tester-test
@@ -68,6 +68,6 @@ test-suite sc88-tester-test
   build-depends:
       PortMidi
     , base >=4.7 && <5
-    , bytestring
     , sc88-tester
+    , time
   default-language: Haskell2010
