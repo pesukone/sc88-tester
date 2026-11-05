@@ -28,6 +28,8 @@ dependencies:
   - gi-glib
   - gi-gtk4
   - haskell-gi-base
+  - text
+  - containers
 
 ghc-options:
   - -Wall
